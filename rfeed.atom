@@ -1,0 +1,32 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>Zhan Zhuang Chi Kung Aulas Avançadas</title>
+  <link href="http://b3regulares.devagar.org"/>
+  <link type="application/atom+xml" rel="self" href="http://b3regulares.devagar.org/rfeed.atom"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://b3regulares.devagar.org/</id>
+  <author>
+    <name>Lourenco de Azevedo</name>
+    <email>lourencoazevedo@gmail.com</email>
+  </author>
+
+   {% for post in site.posts limit:10 %}
+  <entry>
+    <id>http://b3regulares.devagar.org{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://b3regulares.devagar.org{{ post.url }}"/>
+    <title>{{ post.title }}</title>
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>"Lourenco de Azevedo"</name>
+      <uri>http://b3regulares.devagar.org</uri>
+    </author>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+ 
+</feed>
