@@ -10,7 +10,7 @@ Esta página contém informação úteis sobre as aulas regulares e actividades 
 
 **Início das aulas**
 
-- Dia 1 de Abril para quem subscreveu as Terças ou Terças e Quintas.
+- Dia 1 de Abril para quem subscreveu aulas ás Terças ou Terças e Quintas.
 
 - Dia 3 de Abril para quem subscreveu aulas às Quintas
 
