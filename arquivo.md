@@ -3,7 +3,7 @@ layout: default
 ---
 ### Arquivo
 
-**Aqui podem ser consultados todas as aulas e artigos publicados neste curso **
+**Aqui podem ser consultados todas as aulas e artigos publicados neste curso**
 
 <div class="hfeed">
 	{% for post in site.posts %}
