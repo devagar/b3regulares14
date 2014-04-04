@@ -5,6 +5,7 @@ posts: 	     ./_posts
 layouts:     ./_layouts
 include:     ['.htaccess']
 exclude:     []
+markdown: kramdown
 name: mZero
 description: Ideias para simplificar
 url: http://mzero.co
